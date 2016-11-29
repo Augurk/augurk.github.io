@@ -179,7 +179,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
@@ -236,6 +236,13 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
+}
+#portfolio .portfolio-item .portfolio-link .img-responsive {
+  border: solid 2px #1D5309;
+}
+#portfolio .portfolio-item .subtitle {
+  text-align: center;
+  font-weight: bold;
 }
 #portfolio * {
   z-index: 2;
@@ -451,7 +458,7 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 25px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
